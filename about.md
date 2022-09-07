@@ -25,3 +25,8 @@ titles:
   # @end locale config
 key: page-about
 ---
+关于我
+我叫杨俊峰（Oscar Yang)，一名售前工程师。
+
+关于这个网站
+记录我的学习历程和自己的所想所感
