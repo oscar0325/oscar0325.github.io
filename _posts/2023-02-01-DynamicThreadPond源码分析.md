@@ -4,10 +4,10 @@ tags: C++高性能并发库Hipe源码分析
 ---
 
 # 类图
-![](https://github.com/oscar0325/oscar0325.github.io/blob/master/images/class.png)
+![](https://github.com/oscar0325/oscar0325.github.io/raw/master/images/class.png)
 
 # 框架图
-![](https://github.com/oscar0325/oscar0325.github.io/blob/master/images/class.png)
+![](https://github.com/oscar0325/oscar0325.github.io/raw/master/images/arch.png)
 - **算法思想**
 	1. 核心思想，生成消费者模型
 	2. 所有线程共享公共任务队列，通过公共队列的互斥锁来竞争获取任务
