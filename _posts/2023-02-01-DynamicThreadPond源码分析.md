@@ -26,7 +26,7 @@ key: test
 		2. std::condition_variable thread_cv，一个线程运行完毕后发出通知，实际用与所有线程运行完毕后，通知主线程进行下一步动作
 		3. std::condition_variable task_done_cv，一个任务运行完毕后发出通知
 - 源码
-```
+```C++
 /* 文件名 dynamic_pond.h */
 
 #pragma once
@@ -257,7 +257,7 @@ private:
 ## 应用
 - 加入一个管理线程，管理线程每秒查询一次，通过比较当前载入的任务数量与上一时刻载入的任务数量的大小来自动管理工作线程数量，如果当前载入的任务数量大于上一时刻载入的任务数量（认为线程工作忙碌），并且当前工作线程的数量没有超过设定的最大值，则自动添加工作线程。相反，则减少线程。
 - demo代码
-```
+```C++
 /**
  * How to adjust the dynamic thread pool.
  * This is just a reference.
